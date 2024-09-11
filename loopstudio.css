@@ -147,6 +147,7 @@ body .words p {
     background-size: cover;
     background-blend-mode: lighten;
     color: black;
+    opacity: 0.4;
 }
 .topgrid .gridside .makeit{
     background-image: url(/image/desktop/image-fisheye.jpg);

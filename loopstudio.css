@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", 'Times New Roman';
+}
+header{
+    background-image: url(/image/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vw;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 90px;
+    padding-block: 50px;
+}
+header nav ul{
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+header nav ul li{
+    list-style: none;
+}
+header .headword{
+    margin: 90px;
+    padding: 15px;
+    padding-inline: 7rem;
+    border: 3px solid;
+    width: 32rem;
+    color: white;
+}
+header .headword p{
+    color: white;
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: -90px;
+}
+span{
+    display: block;
+}
+body .interactive{
+    display: flex;
+    margin-inline: 10vw;
+    margin-block: 80px;
+    position: relative;
+    /* justify-content: center; */
+    /* padding: 120px; */
+    /* gap: 20px; */
+}
+body .interactive .words{
+    width: 700px; 
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    right:-2rem;
+    top: 80px;
+}
+ 
+body .words h1 {
+    padding-top: 11rem;
+    padding-left: 90px;
+}
+
+body .words p {
+    line-height: 25px;
+    padding-left: 90px;
+}
+
+
+.creationsline{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 135px;
+    padding-block: 50px;
+}
+.seeall button{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+}
+.topgrid{
+    padding-inline: 135px;
+    padding-bottom: 120px;
+}
+.topgrid .gridside{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 40px;
+    height: 60rem;
+    color: white;
+    font-size: x-large;
+    /* text-align: center; */
+    /* text-indent: -60px; */
+}
+.topgrid .gridside p{
+    position: relative;
+    top: 24rem;
+    padding-left: 40px;
+}
+
+.topgrid .gridside .deep{
+    background-image: url(/image/desktop/image-deep-earth.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topgrid .gridside .night{
+    background-image: url(/image/desktop/image-night-arcade.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topgrid .gridside .soccer{
+    background-image: url(/image/desktop/image-soccer-team.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topgrid .gridside .grid{
+    background-image: url(/image/desktop/image-grid.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topgrid .gridside .fromup{
+    background-image: url(/image/desktop/image-from-above.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topgrid .gridside .pocket{
+    background-image: url(/image/desktop/image-pocket-borealis.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topgrid .gridside .curiosity{
+    background-image: url(/image/desktop/image-curiosity.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+    color: black;
+}
+.topgrid .gridside .makeit{
+    background-image: url(/image/desktop/image-fisheye.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    padding-inline: 135px;
+}
+footer .footnav{
+    padding-top: 60px;
+}
+footer .footnav .footul{
+    padding-top: 10px;
+    display: flex;
+    color: white;
+    gap: 20px;
+}
+footer .footnav .footul li{
+    list-style: none;
+}
+footer .footimg{
+    padding-top: 60px;
+}
+footer .footimg .footword{
+    padding-top: 20px;
+    color: white;
+}
+footer .footimg .imgfooter{
+    padding-left: 120px;
+    
+}
